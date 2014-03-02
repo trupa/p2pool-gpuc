@@ -231,10 +231,10 @@ nets = dict(
     ),
 
     gpucoin=math.Object(
-        P2P_PREFIX='bac8afd1'.decode('hex'),
-        P2P_PORT=23233,
+        P2P_PREFIX='fbbab2fa'.decode('hex'),
+        P2P_PORT=6858,
         ADDRESS_VERSION=38,
-        RPC_PORT=23232,
+        RPC_PORT=6857,
         RPC_CHECK=defer.inlineCallbacks(lambda bitcoind: defer.returnValue(
             'gpucoinaddress' in (yield bitcoind.rpc_help()) and
             not (yield bitcoind.rpc_getinfo())['testnet']
