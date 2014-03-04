@@ -236,7 +236,7 @@ nets = dict(
         ADDRESS_VERSION=38,
         RPC_PORT=6857,
         RPC_CHECK=defer.inlineCallbacks(lambda bitcoind: defer.returnValue(
-            'GPUCcoinaddress' in (yield bitcoind.rpc_help()) and
+            'gpucoinaddress' in (yield bitcoind.rpc_help()) and
             not (yield bitcoind.rpc_getinfo())['testnet']
         )),
         SUBSIDY_FUNC=lambda height: 20000*100000000 >> (height + 1)//250000,
