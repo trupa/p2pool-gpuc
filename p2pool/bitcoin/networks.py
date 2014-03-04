@@ -232,7 +232,7 @@ nets = dict(
 
     gpucoin=math.Object(
         P2P_PREFIX='fabfb5da'.decode('hex'),
-        P2P_PORT=6858,
+        P2P_PORT=5880,
         ADDRESS_VERSION=38,
         RPC_PORT=6857,
         RPC_CHECK=defer.inlineCallbacks(lambda bitcoind: defer.returnValue(
