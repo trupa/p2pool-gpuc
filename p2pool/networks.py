@@ -156,7 +156,7 @@ nets = dict(
         MAX_TARGET=2**256//2**20 - 1,
         PERSIST=False,
         WORKER_PORT=9404,
-        BOOTSTRAP_ADDRS='gpu.qemulab.com gpu-usa-west.crewdoginvesting.com gpu-asia.crewdoginvesting.com'.split(' '),
+        BOOTSTRAP_ADDRS='http://96.51.143.9:4035 http://aforis.mooo.com:9404 http://96.126.121.117:9404 gpu.qemulab.com gpu-usa-west.crewdoginvesting.com gpu-asia.crewdoginvesting.com'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-gpuc',
         VERSION_CHECK=lambda v: True,
     ),
