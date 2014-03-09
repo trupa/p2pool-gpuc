@@ -156,7 +156,7 @@ nets = dict(
         MAX_TARGET=2**256//2**20 - 1,
         PERSIST=False,
         WORKER_PORT=9404,
-        BOOTSTRAP_ADDRS='96.51.143.9 aforis.mooo.com 96.126.121.117 gpu.crabdance.com'.split(' '),
+        BOOTSTRAP_ADDRS='aforis.mooo.com 96.126.121.117 gpu.crabdance.com gpu.qemulab.com'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-gpuc',
         VERSION_CHECK=lambda v: True,
     ),
