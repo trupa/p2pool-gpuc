@@ -231,8 +231,8 @@ nets = dict(
     ),
 
     gpucoin=math.Object(
-        P2P_PREFIX='fabfb5da'.decode('hex'),
-        fbc0b6db
+        P2P_PREFIX='fbc0b6db'.decode('hex'),
+        
         P2P_PORT=8623,
         ADDRESS_VERSION=38,
         RPC_PORT=9026,
